@@ -1,0 +1,133 @@
+.app__navbar{
+    width : 95%;
+    display :flex;
+    border : 5px solid black;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(90, 35, 2, 0.65);
+    padding: 1rem 2rem
+
+}
+
+.app__navbar__logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.app__navbar-logo-image {
+    width: 500px;
+
+}
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.app__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.app__navbar-links li:hover {
+    color: var(--color-gray);
+}
+.app__navbar-login {
+    display:flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+.app__navbar-login a {
+    margin: 0 3rem;
+    text-decoration :solid;
+    transition: .5s ease;
+}
+
+.app__navbar-login a:hover {
+    border-bottom: 1px solid var(--color-golden);
+}
+
+.app__navbar-login div {
+    width : 1px;
+    height : 10px;
+    background-color: var(--color-golden);
+    margin : 1px;
+
+}
+.app__navbar-smallscreen {
+    display: flex;
+    height : 20vh;
+    
+}
+
+.app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensure it covers the entire screen */
+    background: rgba(0, 0, 0, 1);
+    transition: .5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.app__navbar-smallscreen_overlay .overlay__close {
+    font-size: 27px;
+    color: white; /* Change the color to white */
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links {
+        display: none;
+    }
+    .app__navbar-smallscreen {
+        display: flex;
+    }
+}
+
+.app__navbar-smallscreen_links {
+    list-style: none;
+
+}
+
+.app__navbar-smallscreen_links li {
+    margin: 2rem ; /* Adjust margin */
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+
+.app__navbar-smallscreen_links li a:hover {
+
+    color: var(--color-white); /* Maintain golden color on hover */
+}
+
+@media screen and (max-width: 2000px) {
+    .app__navbar-logo-image{
+        width: 210px
+    }
+
+
+}
+@media screen and (max-width: 650px) {
+
+    .app__navbar{
+        padding:1rem;
+    }
+    .app__navbar-login{
+        display:none;
+    }
+    .app__navbar-logo-image{
+        width: 110px
+    }
+}
