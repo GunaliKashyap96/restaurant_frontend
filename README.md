@@ -1,6 +1,21 @@
 # Restaurant_frontend
 Restaurant UI/UX app built in react, node js, 
 
+# Key Objectives
+React Functional Components: Applied React functional components extensively to build dynamic and reusable UI elements, enhancing interactivity and maintainability.
+
+File and Folder Structure: Implemented a structured file and folder hierarchy in React to organize components, assets, and styles efficiently, ensuring scalability and ease of maintenance.
+
+CSS Fundamentals: Leveraged fundamental CSS properties such as flexbox and grid to create responsive layouts and seamless user experiences, enhancing the visual appeal of the landing page.
+
+CSS BEM Model: Practiced the principles of the CSS Block Element Modifier (BEM) methodology to write clean and modular CSS code, facilitating better code organization and readability.
+
+Animations and Gradients: Utilized soft animations and complex gradients to elevate the visual aesthetics of the landing page, creating engaging and immersive user interactions.
+
+Responsive Design: Implemented media queries strategically to achieve responsive design across various devices, ensuring a consistent and user-friendly experience for visitors on desktops, tablets, and smartphones.
+
+Deployment: Demonstrated proficiency in deploying React applications to fast servers and configuring custom domain names for online accessibility, showcasing the ability to bring projects from development to production effectively.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
